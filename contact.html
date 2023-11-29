@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Everything Snowboards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+
+    <style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Arial, Helvetica, sans-serif";
+    }
+    .w3-bar, h1, button {
+        font-family: "Cursive, Fantasy";
+    }
+    .w3-bar {
+        background-color: #0099cc; /* Changed the background color */
+        color: #ffffff;
+        border-bottom: 4px solid #006699; /* Added a bottom border */
+    }
+    .w3-bar a {
+        color: #ffffff;
+        border-right: 2px solid #006699; /* Added right border for links */
+        padding: 10px 20px; /* Added padding to links */
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #0099cc;
+    }
+    .w3-container {
+        background-color: #f2f2f2;
+        border: 2px solid #ccc; /* Added a border */
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .w3-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+    }
+    .w3-button {
+        background-color: #0099cc;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+    }
+    .w3-button:hover {
+        background-color: #006699;
+    }
+    .w3-opacity {
+        opacity: 0.7;
+    }
+    a {
+        text-decoration: none;
+    }
+    footer {
+            justify-content: center;
+            margin-top: 350px;
+            margin-left: 45%;
+            padding: 0%;
+        }
+</style>
+
+    </style>
+<section id="contact" class="w3-container w3-white w3-padding-64">
+    <div class="w3-content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to reach out to us, please use the contact form below.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large">About</a>
+     <!-- <div class="w3-dropdown-hover">
+            <a href="gear.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gear <i class="fa fa-caret-down"></i></a>
+            <div class="w3-dropdown-content w3-bar-block w3-card">
+                <a href="#Clothing" class="w3-bar-item w3-button w3-padding-large">Clothing</a>
+                <a href="#Accessories" class="w3-bar-item w3-button w3-padding-large">Accessories</a>
+                <a href="#Snowboards" class="w3-bar-item w3-button w3-padding-large">Snowboards</a>
+            </div>
+        </div> -->
+        <a href="videos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="TOUR">GEAR <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button w3-padding-large">clothing</a>
+                <a href="#" class="w3-bar-item w3-button w3-padding-large">accessories</a>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="w3-container">
+    <div class="w3-xlarge">
+        <a href="#" class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a href="#" class="fa fa-instagram w3-hover-opacity"></a>
+        <a href="#" class="fa fa-snapchat w3-hover-opacity"></a>
+        <a href="#" class="fa fa-pinterest-p w3-hover-opacity"></a>
+        <a href="#" class="fa fa-twitter w3-hover-opacity"></a>
+        <a href="#" class="fa fa-linkedin w3-hover-opacity"></a>
+    </div>
+
+</body>
+</html>
